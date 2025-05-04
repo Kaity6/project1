@@ -1,27 +1,27 @@
-.odd {
-  background-color: rgb(255, 167, 167);
-  font-family: Verdana, "DejaVu Sans", sans-serif;
+body {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.adjust-font-size {
-  font-size: 24px;
+.one {
+  background: pink;
+  border: 3px solid blue;
+  /* CHANGE ME */
+  padding: 32px;
+  margin: 12px;
 }
 
-#two {
-  color: #0000ff;
-  font-size: 36px;
+.two {
+  background: lightblue;
+  border: 3px solid purple;
+  /* CHANGE ME */
+  margin-bottom: 48px;
 }
 
-/*
-    In the id selector 'four' below, we could have also
-    added a rule to set the font size to 24px.
-
-    However, since the elements 'Number 3' and 'Number 4'
-    in the HTML file share the same font size, we reused
-    the 'adjust-font-size' class above to help reduce
-    duplicate code.
-*/
-#four {
-  background-color: hsl(120, 100%, 75%);
-  font-weight: bold;
-}
+.three {
+  background: peachpuff;
+  border: 3px solid brown;
+  width: 200px;
+  /* CHANGE ME */
+  padding: 32px;
+  margin-left: auto;
